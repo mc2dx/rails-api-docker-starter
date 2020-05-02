@@ -9,6 +9,12 @@
 
 ### Up&Running
 
+#### Clone the repository
+`git clone git@github.com:mc2dx/rails-api-docker-starter.git your-project`
+
+`cd your-project`
+
+
 #### Generate new Rails application
 
 `docker-compose run api rails _6.0.3.rc1_ new . --api --force --no-deps --database=postgresql`
